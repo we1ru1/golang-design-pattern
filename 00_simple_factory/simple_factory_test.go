@@ -1,8 +1,7 @@
-package simplefactory
+package simpleFactory
 
 import "testing"
 
-// TestType1 test get hiapi with factory
 func TestType1(t *testing.T) {
 	api := NewAPI(1)
 	s := api.Say("Tom")
